@@ -34,21 +34,27 @@
 <form id="sign-up-form">
 
 <p>
-  <span id="name">Name:</span>  <input name="fn" type="text" size="10" id="fn"> <input name="mi" type="text" size="1" id="mi">. <input name="ln" type="text" size="10" id="ln"><br>
+  <label for="first-name">First Name:</label>
+  <input id="first-name" type="text" name="textfield">
 </p>
 <p>
-  <span id="email">Email:</span> <input id="em" name="em" type="text" size="20">
+  <label for="middle-initial">Middle Initial:</label>
+  <input id="middle-initial" type="text" name="textfield"> 
 </p>
 <p>
-  <span id="spamtext">Would you like to receive occassional emails with offers from us?</span>
-  <div id="receivespambutton">
-    <img src="pics/checked.png" alt="checkbox">
-  </div>
-  <input type="hidden" name="spamyn" id="spamyn" value="n">
+  <label for="last-name">Last Name:</label>
+  <input id="last-name" type="text" name="textfield">
 </p>
 <p>
-  Comments:<br>
-  <textarea rows="5" cols="40"></textarea>
+  <fieldset>
+    <legend>Would you like to receive occassional emails with offers from us?</legend>
+    <input id="ham" type="checkbox" name="toppings" value="ham">
+    <label for="ham">Ham</label><br>
+  </fieldset>
+</p>
+<p>
+  <label for="address">Comments:</label><br>
+  <textarea id="address" name="addresstext"></textarea>
 </p>
  <input type="button" value="Sign Up!" id="signupbutton">
 </form>
