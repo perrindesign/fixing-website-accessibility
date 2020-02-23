@@ -3,7 +3,7 @@ html,body {
   font-size: 1.1em;
 }
 
-.container {
+main {
   margin: auto;
   width: 800px;
 }
@@ -29,12 +29,7 @@ a {
   color: gray;
 }
 
-.offscreen {
-  top: -1000px;
-  font-size: 1px;
-}
-
-.navigation a {
+nav a {
   outline: none;
 }
 
