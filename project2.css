@@ -25,12 +25,7 @@ input,textarea {
 }
 
 a {
-  text-decoration: none;
-  color: gray;
-}
-
-nav a {
-  outline: none;
+  color: #0433FF;
 }
 
 #videoplayer {
@@ -40,7 +35,7 @@ nav a {
 }
 
 .error {
-  color: red;
+  background-color: #ffc6c4;
 }
 
 #accessibilitybanner {

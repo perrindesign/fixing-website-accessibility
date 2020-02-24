@@ -10,46 +10,47 @@
 <body>
 <main>
 <nav>
-  <a href="#home"><img src="pics/home.png"></a><a href="#links"><img src="pics/links.png"></a> <a href="#signup"><img src="pics/signup.png"></a>
+  <a href="#home">Home</a> <a href="#links">Links</a> <a href="#signup">Sign Up</a>
 </nav>
 
-<div id="accessibilitybanner"></div>
 <h1 id="home">Accessibility Overview</h1>
+<div id="accessibilitybanner"></div>
 
-<video width="480" height="360" id="thevideo">
-  <source src="employment-movie.mp4" type="video/mp4">
-</video>
-<div id="videoplayer" tabindex="5">
-  <img width="50px" height="50px" src="pics/play.png">
-</div>
+
 
 <h2 id="links">Links</h2>
-<img src="pics/dot.png" alt="dot">&nbsp;<a href="https://visit.columbia.edu/content/accessibility">Accessibility Research at Columbia</a><br>
-<img src="pics/dot.png" alt="dot">&nbsp;<a href="https://barnard.edu/disabilityservices">Disability Services at Barnard</a><br>
-<img src="pics/dot.png" alt="dot">&nbsp;<a href="http://www.hampsterdance.com/classics/originaldance.htm">Hampster Dance</a><br>
+<ul>
+  <li><a href="https://visit.columbia.edu/content/accessibility">Accessibility Resources at Columbia</a></li>
+  <li><a href="https://barnard.edu/disabilityservices">Accessibility Resources and Disability Services at Barnard</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Hampster_Dance">Hampster Dance</a></li>
+</ul>
 
 
 <h2 id="signup">Sign Up!</h2>
 <form id="sign-up-form">
 
 <p>
-  <label for="first-name">First Name:</label>
+  <label for="first-name">First Name (Required):</label>
   <input id="first-name" type="text" name="textfield">
 </p>
 <p>
-  <label for="middle-initial">Middle Initial:</label>
-  <input id="middle-initial" type="text" name="textfield"> 
+  <label for="middle-intial">Middle Initial:</label>
+  <input id="middle-intial" type="text" name="textfield">
 </p>
 <p>
-  <label for="last-name">Last Name:</label>
+  <label for="last-name">Last Name (Required):</label>
   <input id="last-name" type="text" name="textfield">
 </p>
 <p>
-  <fieldset>
+  <label for="email">Email (Required):</label>
+  <input id="email" type="text" name="textfield">
+</p>
+<p> 
+  <fieldset> 
     <legend>Would you like to receive occassional emails with offers from us?</legend>
     <input id="yes-offers" type="checkbox" name="toppings" value="yes-offers">
-    <label for="yes-offers">Yes</label><br>
-  </fieldset>
+    <label for="yes-offers">Yes, I opt in</label><br>
+  </fieldset> 
 </p>
 <p>
   <label for="comments">Comments:</label><br>
