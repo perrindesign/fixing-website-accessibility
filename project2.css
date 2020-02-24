@@ -8,18 +8,6 @@ main {
   width: 800px;
 }
 
-.heading {
-  font-weight: bold;
-  font-size: 2em;
-  margin: 1em 0;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 1.5em;
-  margin: .5em 0;
-}
-
 input,textarea {
   font-size: 1.1em;
 }
@@ -28,18 +16,6 @@ a {
   color: #0433FF;
 }
 
-#videoplayer {
-  text-align: center;
-  position: relative;
-  top: -100px;
-}
-
 .error {
   background-color: #ffc6c4;
-}
-
-#accessibilitybanner {
-  width: 857px;
-  height: 207px;
-  background-image: url(pics/blankbackground.png);
 }
